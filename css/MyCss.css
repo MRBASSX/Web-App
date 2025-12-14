@@ -1,0 +1,59 @@
+
+*{
+    text-decoration: none;
+    margin: 0px;
+}
+
+.menu  li a{
+    color: white;
+}
+
+.menu{
+    list-style: none;
+    height: 50px;
+    background-color: rgb(37, 89, 134);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.coverpage{
+    height: 340px;
+    background-color: blue;
+    background-image: url('../images/Netflix\ Sits\ At\ 231\ Million\ Subscribers_.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.first-collection h1{
+
+    margin-left:15px;
+}
+
+.container{
+
+    height: auto;
+    background-color: rgb(78, 78, 145);
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie-box{
+    height: auto;
+    width: 200px;
+    border: 1px solid gray;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+}
